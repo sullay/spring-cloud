@@ -1,5 +1,26 @@
+作者：sullay
 1、服务注册与发现（Eureka、Consul）
-      eureka的服务注册中心：eureka-server
-      eureka的服务提供方：eureka-client
-      consul的服务提供方：consul-client
-2、
+	eureka的服务注册中心：eureka-server
+  	eureka的服务提供方：eureka-client
+	consul的服务提供方：consul-client
+2、服务消费者（基础）
+	eureka的服务注册中心：eureka-server
+	eureka的服务提供方：eureka-client
+	eureka的服务消费者：eureka-consumer
+	consul的服务提供方：consul-client
+	consul的服务消费者：consul-consumer
+3、服务消费（Ribbon）
+	eureka的服务注册中心：eureka-server
+	eureka的服务提供方：eureka-client
+	eureka的服务消费者：eureka-consumer-ribbon
+4、服务消费（Feign）
+	eureka的服务注册中心：eureka-server
+	eureka的服务提供方：eureka-client
+	eureka的服务消费者：eureka-consumer-feign
+5、分布式配置中心
+	基于Git仓库的配置中心：config-server-git
+	使用配置中心的客户端：config-client
+6、服务容错保护（Hystrix服务降级）
+	eureka的服务注册中心：eureka-server
+	eureka的服务提供方：eureka-client
+	eureka的服务消费者：eureka-consumer-ribbon-hystrix
